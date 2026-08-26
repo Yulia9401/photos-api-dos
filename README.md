@@ -1,2 +1,2 @@
-# SONPlaceholder photos API
+# JSON Placeholder photos API
 Тренирововчное задание. Работа с фотографиями без реального сервера и БД.
