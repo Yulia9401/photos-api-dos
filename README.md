@@ -16,7 +16,7 @@
 ## 💎 Технологии
 
 - REST API
-- OpenAPI 3.0 (спецификация контракта) [(https://raw.githubusercontent.com/Yulia9401/photos-api-dos/refs/heads/main/openapi.yaml?token=GHSAT0AAAAAAEG3B2SRYDWVC5I6HX27YYXI2UOWIMQ)]
+- OpenAPI 3.0 (спецификация контракта) [https://raw.githubusercontent.com/Yulia9401/photos-api-dos/refs/heads/main/openapi.yaml?token=GHSAT0AAAAAAEG3B2SRYDWVC5I6HX27YYXI2UOWIMQ]
 - Swagger UI — визуализация документации
 - Postman — тестирование и коллекции запросов
 
