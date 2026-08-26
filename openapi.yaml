@@ -1,0 +1,140 @@
+openapi: 3.0.0
+info:
+  title: Photos API (Mock)
+  description: Mock API для работы с фотографиями (JSONPlaceholder). CRUD-операции.
+  version: 1.0.0
+
+paths:
+  /photos:
+    get:
+      summary: Получить список фотографий
+      operationId: listPhotos
+      responses:
+        '200':
+          description: Список фотографий
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Photo'
+    post:
+      summary: Создать фотографию (эмуляция)
+      operationId: createPhoto
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PhotoInput'
+      responses:
+        '201':
+          description: Фотография создана
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Photo'
+  /photos/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: integer
+    get:
+      summary: Получить фото по ID
+      operationId: getPhotoById
+      responses:
+        '200':
+          description: Фото найдено
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Photo'
+        '404':
+          description: Фото не найдено
+    put:
+      summary: Полностью обновить фото (эмуляция)
+      operationId: updatePhoto
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Photo'
+      responses:
+        '200':
+          description: Фото обновлено
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Photo'
+    patch:
+      summary: Частично обновить фото (эмуляция)
+      operationId: patchPhoto
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                url:
+                  type: string
+                thumbnailUrl:
+                  type: string
+      responses:
+        '200':
+          description: Фото частично обновлено
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Photo'
+    delete:
+      summary: Удалить фото (эмуляция)
+      operationId: deletePhoto
+      responses:
+        '200':
+          description: Удаление принято (эмуляция)
+        '404':
+          description: Фото не найдено
+
+components:
+  schemas:
+    Photo:
+      type: object
+      required:
+        - id
+        - albumId
+        - title
+        - url
+        - thumbnailUrl
+      properties:
+        id:
+          type: integer
+        albumId:
+          type: integer
+        title:
+          type: string
+        url:
+          type: string
+        thumbnailUrl:
+          type: string
+    PhotoInput:
+      type: object
+      required:
+        - albumId
+        - title
+        - url
+        - thumbnailUrl
+      properties:
+        albumId:
+          type: integer
+        title:
+          type: string
+        url:
+          type: string
+        thumbnailUrl:
+          type: string
