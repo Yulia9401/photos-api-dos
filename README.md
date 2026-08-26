@@ -14,8 +14,6 @@
 - **DELETE /photos/{id}** — удалить фото. Статус: 200 OK (в моке — эмуляция).
 
 ## 💎 Технологии
-
-## 💎 Технологии
 - REST API
 - [OpenAPI 3.0 (спецификация контракта)](https://editor.swagger.io/?url=https://raw.githubusercontent.com/Yulia9401/photos-api-dos/main/openapi.yaml)
 - Swagger UI (визуализация через [editor.swagger.io](https://editor.swagger.io/?url=https://raw.githubusercontent.com/Yulia9401/photos-api-dos/main/openapi.yaml))
