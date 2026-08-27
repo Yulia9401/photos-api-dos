@@ -3,7 +3,9 @@ info:
   title: Photos API (Mock)
   description: Mock API для работы с фотографиями (JSONPlaceholder). CRUD-операции.
   version: 1.0.0
-
+servers:
+  - url: https://jsonplaceholder.typicode.com
+    description: Тестовый API (JSONPlaceholder) для эмуляции запросов
 paths:
   /photos:
     get:
