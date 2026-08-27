@@ -19,13 +19,6 @@
 - Swagger UI (визуализация через [editor.swagger.io](https://editor.swagger.io/?url=https://raw.githubusercontent.com/Yulia9401/photos-api-dos/main/openapi.yaml))
 - Postman — тестирование и коллекции запросов
 
-
-## 🌐 Быстрые ссылки
-
-- Swagger UI: [editor.swagger.io](https://editor.swagger.io/) (вставить `photos_api.yaml` в редактор)
-- Postman коллекция: файл `photos-api.postman_collection.json` в репозитории
-- Mock Server: будет опубликован позже
-
 ## 📖 API Endpoints
 
 | Метод | Эндпоинт | Описание | Статус |
