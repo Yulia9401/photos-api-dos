@@ -16,7 +16,7 @@
 ## 💎 Технологии
 - REST API
 - [OpenAPI 3.0 (спецификация контракта)](https://raw.githubusercontent.com/Yulia9401/photos-api-dos/refs/heads/main/openapi.yaml)
-- [Swagger UI](https://forge.etsi.org/swagger/editor/?spec=https://rawcdn.githack.com/Yulia9401/photos-api-dos/main/openapi.yaml) — визуализация документации и генерация примеров запросов. Для тестирования методов импортируйте спецификацию в [Postman](https://www.postman.com/).))
+- [Swagger UI](https://forge.etsi.org/swagger/editor/?spec=https://rawcdn.githack.com/Yulia9401/photos-api-dos/main/openapi.yaml) — визуализация документации и генерация примеров запросов. Для тестирования методов импортируйте спецификацию в [Postman](https://www.postman.com/).)
 - Postman — тестирование и коллекции запросов
 
 ## 📖 API Endpoints
