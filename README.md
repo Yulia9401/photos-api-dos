@@ -15,7 +15,7 @@
 
 ## 💎 Технологии
 - REST API
-- [OpenAPI 3.0 (спецификация контракта)](https://editor.swagger.io/?url=https://raw.githubusercontent.com/Yulia9401/photos-api-dos/main/openapi.yaml)
+- [OpenAPI 3.0 (спецификация контракта)](https://rawcdn.githack.com/Yulia9401/photos-api-dos/main/openapi.yaml)
 - Swagger UI (визуализация через [editor.swagger.io](https://editor.swagger.io/?url=https://raw.githubusercontent.com/Yulia9401/photos-api-dos/main/openapi.yaml))
 - Postman — тестирование и коллекции запросов
 
